@@ -25,7 +25,7 @@ const columns = [
                 const thisRow: Record<string, GridCellValue> = {};
 
                 fields.forEach((f) => {
-                    thisRow[f] = params.getValue(f) ;
+                    thisRow[f] = params.getValue(params.id,f);
                 });
 
                 return alert(JSON.stringify(thisRow, null, 4));
@@ -39,7 +39,7 @@ const columns = [
                 const thisRow: Record<string, GridCellValue> = {};
 
                 fields.forEach((f) => {
-                    thisRow[f] = params.getValue(f);
+                    thisRow[f] = params.getValue(params.id,f);
                 });
 
                 return alert(JSON.stringify(thisRow, null, 4));
