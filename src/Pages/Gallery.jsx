@@ -4,7 +4,7 @@ import { Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Contain
 function Gallery() {
     return (
         <div style={{ marginTop: '150px' }}>
-            <Typography variant='h2' align='center'>GALLERIA</Typography>
+            <Typography variant='h1' align='center'>GALLERIA</Typography>
             <Grid>
 
             </Grid>

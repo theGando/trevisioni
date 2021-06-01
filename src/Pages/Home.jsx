@@ -7,14 +7,15 @@ import logo from '../TreviLogo.png';
 
 function Home() {
     return (
-        <div style={{ marginTop: '150px' }}>
+        <div style={{ marginTop: '150px', marginBottom: 300 }}>
             <main>
                 <div style={{ marginBottom: '100px' }}>
                     <center >
                         <Container maxWidth="s" align='center'>
                             <img src={logo} style={{ width: '90%' }} />
                             <Typography variant="h4" align="center" color="textSecondary" paragraph>
-                                Il festival dei fioi al parco dei fioi con l'Arte dei fioi<br /> Vi aspettiamo in Villa Margherita il 27 28 e 29 Agosto
+                                Il festival dei fioi al parco dei fioi con l'Arte dei fioi<br />
+                                Vi aspettiamo in Villa Margherita il 27 28 e 29 Agosto
                             </Typography>
                             <Typography variant='h2' align="center" color="textPrimary" gutterBottom>
                                 Calendario Eventi
