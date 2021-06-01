@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Typography } from "@material-ui/core";
+import { Container,  Typography } from "@material-ui/core";
 import logo from '../TreviLogo.png';
 
 function About() {
@@ -11,11 +11,11 @@ function About() {
                         CHI SIAMO
                     </Typography>
                 </Container>
-                <Container style={{ maxWidth: 1000, minHeight: 200, display: 'inline-block' }} >
+                <Container style={{ minHeight: 200, display: 'flex' }} >
 
-                    <img src={logo} style={{ maxWidth: '40%', minWidth: 150 }} />
+                    <img src={logo} style={{ maxWidth: '40%', minWidth: 150, display: 'inline-block' }} />
 
-                    <Typography variant='h5' style={{ maxWidth: 600 }}>
+                    <Typography variant='h5' style={{ maxWidth: 600 , alignSelf: 'center'}}>
                         UN WEEKEND DI MUSICA, ARTE, CULTURA, LABORATORI PER
                         GRANDI E PICCINI , DIBATTI, POESIA, TEATRO E…. MOLTO
                         ALTRO ANCORA!
