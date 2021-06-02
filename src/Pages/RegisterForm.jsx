@@ -35,7 +35,11 @@ export class RegisterForm extends Component {
         switch (step) {
             case 1://Log Data
                 return (
-                    <LogData />
+                    <LogData
+                        nextStep={this.nextStep}
+                        handleChange={this.handleChange}
+                        values={values}
+                    />
                 )
                 break;
             case 2://Art Details
