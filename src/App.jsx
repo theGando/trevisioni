@@ -21,7 +21,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/gallery' exact component={Gallery} />
           <Route path='/about' exact component={About} />
-          <Route path='/register' exact component={RegisterForm} />
+          <Route path='/registerform' exact component={RegisterForm} />
           <Route path='/login' exact component={Login} />
           <Route path='/admin' exact component={Admin} />
           <Route path='/artist/aID' />
