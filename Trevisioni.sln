@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trevisioni.Api", "Trevisioni.Api\Trevisioni.Api.csproj", "{4E06C6E6-7F1A-4BE7-8139-F959F88AA7C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trevisioni.Api", "Trevisioni.Api\Trevisioni.Api.csproj", "{4E06C6E6-7F1A-4BE7-8139-F959F88AA7C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{ED666809-F019-4085-A83A-F9644199E17D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{38041B46-7715-4FDD-A0C8-85C8FCB65F69}"
+	ProjectSection(SolutionItems) = preProject
+		Trevisioni.Api\0.1.sql = Trevisioni.Api\0.1.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trevisioni.Service", "Trevisioni.Service\Trevisioni.Service.csproj", "{C58EFE91-FA69-4BD5-B955-6440E51A14A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +24,16 @@ Global
 		{4E06C6E6-7F1A-4BE7-8139-F959F88AA7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E06C6E6-7F1A-4BE7-8139-F959F88AA7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E06C6E6-7F1A-4BE7-8139-F959F88AA7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58EFE91-FA69-4BD5-B955-6440E51A14A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58EFE91-FA69-4BD5-B955-6440E51A14A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58EFE91-FA69-4BD5-B955-6440E51A14A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58EFE91-FA69-4BD5-B955-6440E51A14A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C58EFE91-FA69-4BD5-B955-6440E51A14A8} = {ED666809-F019-4085-A83A-F9644199E17D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54E1BFC4-7F27-45A4-86D0-7D27F91867AB}
