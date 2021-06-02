@@ -11,7 +11,7 @@ function Days(eventProps) {
                 <Grid container spacing={4} direction='column' justify='space-round' alignItems='center'>
                     <Card style={{ backgroundColor: '#ff978a' }}>
                         <Grid item className={classes.day}>
-                            <Typography variant='h2' align='center'>VENERDÌ</Typography>
+                            <Typography variant='h1' align='center'>VENERDÌ</Typography>
                             <Grid container direction='row' justify='center' alignItems='center'>
 
                                 <EventBox />

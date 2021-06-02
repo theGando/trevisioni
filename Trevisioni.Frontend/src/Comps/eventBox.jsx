@@ -9,7 +9,7 @@ function EventBox(eventProps) {
     let eventExist;
     return (
         <div>
-            <Grid item style={{ margin: '2px' }}>
+            <Grid item style={{ margin: '4px' }}>
                 <Card style={{ backgroundColor: '#00000000' }} className={classes.eventButton} >
                     <Button className={classes.eventButton} >
                         {(eventProps.artistName == null || eventProps.activityName == null)
