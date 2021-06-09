@@ -4,6 +4,7 @@
 Trevisioni.Frontend/node_modules
 Trevisioni.Frontend/.pnp
 .pnp.js
+.cache
 
 # testing
 Trevisioni.Frontend/coverage
