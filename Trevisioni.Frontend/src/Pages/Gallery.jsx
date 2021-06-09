@@ -4,10 +4,14 @@ import { Button, Card, CardActions, CardContent, CardMedia, CssBaseline, Contain
 function Gallery() {
     return (
         <div style={{ marginTop: '150px' }}>
-            <Typography variant='h1' align='center'>GALLERIA</Typography>
-            <Grid>
+            <Container maxWidth='sm'>
+                <Typography variant='h1' align='center' gutterBottom>GALLERIA</Typography>
+                <Grid container spacing={2} justify='center'>
+                    <Grid item >
 
-            </Grid>
+                    </Grid>
+                </Grid>
+            </Container>
         </div>
     )
 }

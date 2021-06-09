@@ -17,6 +17,9 @@ function NavBar() {
                     <Link to='/gallery'>
                         <Button>GALLERIA</Button>
                     </Link>
+                    <Link to='/calendar'>
+                        <Button>EVENTI</Button>
+                    </Link>
                     <Link to='/registerform'>
                         <Button variant='contained'>Sei un artista? Registrati qui!</Button>
                     </Link>

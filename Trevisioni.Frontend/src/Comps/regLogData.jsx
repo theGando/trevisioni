@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { AppBar, RaisedButton, TextField } from '@material-ui/core';
+import { MuiThemeProvider } from '@material-ui/core';
+import { AppBar, Paper, RaisedButton, TextField } from '@material-ui/core';
 
 export class LogData extends Component {
     continue = e => {
@@ -11,14 +12,28 @@ export class LogData extends Component {
         const { values, handleChange } = this.props;
 
         return (
-            <div style={{ marginTop: '150px', marginBottom: 300 }}>
-                <TextField
-                    hintText='Inserisci Username'
-                    floatingLabelText='Username'
-                    onChange={handleChange('userName')}
-                    defaultValue={values.userName}
-                />
-            </div>
+            <MuiThemeProvider>
+                <React.Fragment>
+                    <TextField
+                        hintText='Inserisci Username'
+                        floatingLabelText='Username'
+                        onChange={handleChange('userName')}
+                        defaultValue={values.userName}
+                    /><br />
+                    <TextField
+                        hintText='Inserisci Email'
+                        floatingLabelText='Email'
+                        onChange={handleChange('email')}
+                        defaultValue={values.email}
+                    /><br />
+                    <TextField
+                        hintText='Inserisci Telefono'
+                        floatingLabelText='Telefono'
+                        onChange={handleChange('phone')}
+                        defaultValue={values.phone}
+                    />
+                </React.Fragment>
+            </MuiThemeProvider >
         )
     }
 }

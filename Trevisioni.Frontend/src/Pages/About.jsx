@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,  Typography } from "@material-ui/core";
+import { Container, Grid, Typography } from "@material-ui/core";
 import logo from '../TreviLogo.png';
 
 function About() {
@@ -12,15 +12,15 @@ function About() {
                     </Typography>
                 </Container>
                 <Container style={{ minHeight: 200, display: 'flex' }} >
+                    <Grid container direction='row' justify='space-around' alignItems='center'>
+                        <img src={logo} style={{ maxWidth: '40%', minWidth: 150, display: 'inline-block' }} />
 
-                    <img src={logo} style={{ maxWidth: '40%', minWidth: 150, display: 'inline-block' }} />
-
-                    <Typography variant='h5' style={{ maxWidth: 600 , alignSelf: 'center'}}>
-                        UN WEEKEND DI MUSICA, ARTE, CULTURA, LABORATORI PER
-                        GRANDI E PICCINI , DIBATTI, POESIA, TEATRO E…. MOLTO
-                        ALTRO ANCORA!
-                                </Typography>
-
+                        <Typography variant='h5' style={{ maxWidth: 500, alignSelf: 'center' }}>
+                            UN WEEKEND DI MUSICA, ARTE, CULTURA, LABORATORI PER
+                            GRANDI E PICCINI , DIBATTITI, POESIA, TEATRO E…. MOLTO
+                            ALTRO ANCORA!
+                    </Typography>
+                    </Grid>
                 </Container>
                 <Container style={{ marginTop: 100, maxWidth: '80%', minWidth: 300 }}>
                     <Typography variant='subtitle1' align='justify' paragraph>

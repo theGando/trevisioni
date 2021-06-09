@@ -7,52 +7,54 @@ function Days(eventProps) {
     const classes = useStyles();
     return (
         <div style={{ marginBottom: '50px' }}>
-            <Container>
-                <Grid container spacing={4} direction='column' justify='space-round' alignItems='center'>
-                    <Card style={{ backgroundColor: '#ff978a' }}>
-                        <Grid item className={classes.day}>
-                            <Typography variant='h1' align='center'>VENERDÌ</Typography>
-                            <Grid container direction='row' justify='center' alignItems='center'>
+            <center>
+                <Container>
+                    <Grid container spacing={4} direction='row' justify='space-around' alignItems='center'>
+                        <Card style={{ backgroundColor: '#ff978a' }} className={classes.day}>
+                            <Grid item>
+                                <Typography variant='h2' align='center'>VENERDÌ</Typography>
+                                <Grid container direction='column' justify='center' alignItems='center'>
 
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    </Card>
-                    <Card style={{ backgroundColor: '#fc5e1f' }}>
-                        <Grid item className={classes.day} >
-                            <Typography variant='h2' align='center'>SABATO</Typography>
-                            <Grid container direction='row' justify='center' alignItems='center'>
+                        </Card>
+                        <Card style={{ backgroundColor: '#fc5e1f' }} className={classes.day}>
+                            <Grid item>
+                                <Typography variant='h2' align='center'>SABATO</Typography>
+                                <Grid container direction='column' justify='center' alignItems='center'>
 
-                                <EventBox artistName='Riff' activityName='Concerto' startHour='21:00' endHour='23:00' />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
+                                    <EventBox artistName='Riff' activityName='Concerto' startHour='21:00' endHour='23:00' />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    </Card>
-                    <Card style={{ backgroundColor: '#cb9d47' }}>
-                        <Grid item className={classes.day}>
-                            <Typography variant='h2' align='center'>DOMENICA</Typography>
-                            <Grid container direction='row' justify='center' alignItems='center'>
+                        </Card>
+                        <Card style={{ backgroundColor: '#cb9d47' }} className={classes.day}>
+                            <Grid item>
+                                <Typography variant='h2' align='center'>DOMENICA</Typography>
+                                <Grid container direction='column' justify='center' alignItems='center'>
 
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
-                                <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                    <EventBox />
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    </Card>
-                </Grid>
-            </Container>
+                        </Card>
+                    </Grid>
+                </Container>
+            </center>
         </div>
     );
 }

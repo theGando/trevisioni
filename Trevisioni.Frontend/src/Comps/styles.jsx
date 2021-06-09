@@ -1,15 +1,19 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles(() => ({
+      page: {
+            marginTop: '150px',
+            marginBottom: '250px'
+      },
       eventButton: {
             minHeight: '300px',
-            minWidth: '400px',
+            minWidth: '300px',
             maxHeight: '300px',
-            maxWidth: '400px',
+            maxWidth: '300px',
       },
       day: {
             minHeight: '300px',
-            minWidth: '400px',
+            minWidth: '350px',
             maxWidth: '2000px',
             margin: '2px'
       },

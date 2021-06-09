@@ -8,6 +8,7 @@ import About from './Pages/About';
 import Login from './Pages/Login';
 import RegisterForm from './Pages/RegisterForm';
 import Admin from './Pages/Admin';
+import Calendar from './Pages/Calendar';
 
 function App() {
   const classes = useStyles();
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/gallery' exact component={Gallery} />
           <Route path='/about' exact component={About} />
+          <Route path='/calendar' exact component={Calendar} />
           <Route path='/registerform' exact component={RegisterForm} />
           <Route path='/login' exact component={Login} />
           <Route path='/admin' exact component={Admin} />

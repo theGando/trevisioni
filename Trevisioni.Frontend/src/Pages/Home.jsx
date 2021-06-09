@@ -17,11 +17,8 @@ function Home() {
                                 Il festival dei fioi al parco dei fioi con l'Arte dei fioi<br />
                                 Vi aspettiamo in Villa Margherita il 27 28 e 29 Agosto
                             </Typography>
-                            <Typography variant='h1' align="center" color="textPrimary" gutterBottom>
-                                Calendario
-                            </Typography>
+
                         </Container>
-                        <Days />
                         <StaticArt />
                     </center>
                 </div>
