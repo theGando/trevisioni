@@ -1,0 +1,15 @@
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\bin\Debug\net5.0\Trevisioni.Service.exe
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\bin\Debug\net5.0\Trevisioni.Service.deps.json
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\bin\Debug\net5.0\Trevisioni.Service.runtimeconfig.json
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\bin\Debug\net5.0\Trevisioni.Service.runtimeconfig.dev.json
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\bin\Debug\net5.0\Trevisioni.Service.dll
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\bin\Debug\net5.0\ref\Trevisioni.Service.dll
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\bin\Debug\net5.0\Trevisioni.Service.pdb
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\Trevisioni.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\Trevisioni.Service.AssemblyInfoInputs.cache
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\Trevisioni.Service.AssemblyInfo.cs
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\Trevisioni.Service.csproj.CoreCompileInputs.cache
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\Trevisioni.Service.dll
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\ref\Trevisioni.Service.dll
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\Trevisioni.Service.pdb
+C:\Users\Miche\source\repos\Trevisioni\BL\Trevisioni.Service\obj\Debug\net5.0\Trevisioni.Service.genruntimeconfig.cache

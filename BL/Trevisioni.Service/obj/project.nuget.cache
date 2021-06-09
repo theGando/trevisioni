@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dmiMhxxFycYddBRmUK5aAS0Fc3ZT6wvnkRf2mOwjr8sgZm8D4L+Qhj4b1HxsW1FszWIZCT10a0SajwWJxS2u6g==",
+  "dgSpecHash": "XmOCmr36pfb8GDb+To7aWYtfsKxYTuDItFds1o0hGPlkfN4M/qdWiP9fB87IeQye+hirGvXmovBgXzTjb6IWEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Miche\\source\\repos\\trevisioni-1\\Trevisioni.Service\\Trevisioni.Service.csproj",
+  "projectFilePath": "C:\\Users\\Miche\\source\\repos\\Trevisioni\\BL\\Trevisioni.Service\\Trevisioni.Service.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

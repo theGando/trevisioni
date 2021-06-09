@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Trevisioni.Service/1.0.0": {
+        "runtime": {
+          "Trevisioni.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Trevisioni.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

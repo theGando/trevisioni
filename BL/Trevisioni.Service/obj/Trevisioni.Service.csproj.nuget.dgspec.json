@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Miche\\source\\repos\\trevisioni-1\\Trevisioni.Service\\Trevisioni.Service.csproj": {}
+    "C:\\Users\\Miche\\source\\repos\\Trevisioni\\BL\\Trevisioni.Service\\Trevisioni.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Miche\\source\\repos\\trevisioni-1\\Trevisioni.Service\\Trevisioni.Service.csproj": {
+    "C:\\Users\\Miche\\source\\repos\\Trevisioni\\BL\\Trevisioni.Service\\Trevisioni.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Miche\\source\\repos\\trevisioni-1\\Trevisioni.Service\\Trevisioni.Service.csproj",
+        "projectUniqueName": "C:\\Users\\Miche\\source\\repos\\Trevisioni\\BL\\Trevisioni.Service\\Trevisioni.Service.csproj",
         "projectName": "Trevisioni.Service",
-        "projectPath": "C:\\Users\\Miche\\source\\repos\\trevisioni-1\\Trevisioni.Service\\Trevisioni.Service.csproj",
+        "projectPath": "C:\\Users\\Miche\\source\\repos\\Trevisioni\\BL\\Trevisioni.Service\\Trevisioni.Service.csproj",
         "packagesPath": "C:\\Users\\Miche\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Miche\\source\\repos\\trevisioni-1\\Trevisioni.Service\\obj\\",
+        "outputPath": "C:\\Users\\Miche\\source\\repos\\Trevisioni\\BL\\Trevisioni.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Miche\\AppData\\Roaming\\NuGet\\NuGet.Config",

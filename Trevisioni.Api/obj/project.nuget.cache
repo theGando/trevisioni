@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1gwHBZgO0fHhrgRD88Hq4Ay2Bare5rRrorQJmKTI/Tl2lV23UZNkgdvBcfdkgr/eTQyEPO8L4Lz51PMHUoEUwg==",
+  "dgSpecHash": "0KL2S9AxBFs0gOv3YuWEVyEYx1VbrTGFgAEM2tsW8/FX+E0Orl0aB16Pjh1IstwwMD/a3MgzXGNBpFbo3RB76Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Miche\\source\\repos\\trevisioni-1\\Trevisioni.Api\\Trevisioni.Api.csproj",
+  "projectFilePath": "C:\\Users\\Miche\\source\\repos\\Trevisioni\\Trevisioni.Api\\Trevisioni.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Miche\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Miche\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
