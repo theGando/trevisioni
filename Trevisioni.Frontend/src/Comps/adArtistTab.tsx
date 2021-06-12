@@ -52,14 +52,14 @@ function ArtistTab() {
         var cells : JSX.Element[] = [];
             //warning posible performances bolleneck
             for (let day =0; day <= eventLenght; day++) {
-                var date = new Date(firstDay);
+                let date = new Date(firstDay);
                 date.setDate(date.getDate() + day);
                 date.setHours(hour,30);
                 var data = mockedArtists.filter(x=>
-                    x.Events.filter(x=>new Date(x.StartTime)<date&&date<new Date(x.EndTime)).length>0)
+                        x.Events.filter(y=>new Date(y.StartTime)<date&&date<new Date(y.EndTime))
+                        .length>0)
                     .map(x=>x.Name)
                     .join(' ');
-                // "Events":[{"Id":"z0m2gz65HkiNynz3z48","StartTime":"2021-09-03T08:49:39Z","EndTime":"2021-09-03T09:13:35Z","ActivityName":"Polemoniaceae"},{"Id":"y9r1zg359diWreu2qh7","StartTime":"2021-09-03T09:58:35Z","EndTime":"2021-09-03T03:12:18Z","ActivityName":"Clusiaceae"}
                 cells.push(<td style={{border: '1px solid', borderColor: 'lightgray', padding: '6,4,6,4' }}>{data}</td>)
             }
         if(!cells)
