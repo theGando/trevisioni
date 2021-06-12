@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Typography } from "@material-ui/core";
-import ImageList from '@material-ui/core/ImageList';
-import ImageListItem from '@material-ui/core/ImageListItem';
+// import ImageList from '@material-ui/core/ImageList';
+// import ImageListItem from '@material-ui/core/ImageListItem';
 import useStyles from '../Comps/styles';
 
 const itemData = [
@@ -19,7 +19,7 @@ function Gallery() {
                 </Typography>
             </Container>
             <Box sx={{ width: 500, height: 450, overflowY: 'scroll' }}>
-                <ImageList variant="masonry" cols={3} gap={8}>
+                {/* <ImageList variant="masonry" cols={3} gap={8}>
                     {itemData.map((item) => (
                         <ImageListItem key={item.img}>
                             <img
@@ -29,7 +29,7 @@ function Gallery() {
                             />
                         </ImageListItem>
                     ))}
-                </ImageList>
+                </ImageList> */}
             </Box>
         </div>
     )
