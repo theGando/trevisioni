@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Typography } from "@material-ui/core";
-import { ImageList } from '@material-ui/core/ImageList';
-import { ImageListItem } from '@material-ui/core/ImageListItem';
+import ImageList from '@material-ui/core/ImageList';
+import ImageListItem from '@material-ui/core/ImageListItem';
 import useStyles from '../Comps/styles';
 
 const itemData = [
