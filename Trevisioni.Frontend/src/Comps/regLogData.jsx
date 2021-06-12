@@ -12,28 +12,26 @@ export class LogData extends Component {
         const { values, handleChange } = this.props;
 
         return (
-            <MuiThemeProvider>
-                <React.Fragment>
-                    <TextField
-                        hintText='Inserisci Username'
-                        floatingLabelText='Username'
-                        onChange={handleChange('userName')}
-                        defaultValue={values.userName}
-                    /><br />
-                    <TextField
-                        hintText='Inserisci Email'
-                        floatingLabelText='Email'
-                        onChange={handleChange('email')}
-                        defaultValue={values.email}
-                    /><br />
-                    <TextField
-                        hintText='Inserisci Telefono'
-                        floatingLabelText='Telefono'
-                        onChange={handleChange('phone')}
-                        defaultValue={values.phone}
-                    />
-                </React.Fragment>
-            </MuiThemeProvider >
+            <React.Fragment>
+                <TextField
+                    hintText='Inserisci Username'
+                    floatingLabelText='Username'
+                    onChange={handleChange('userName')}
+                    defaultValue={values.userName}
+                /><br />
+                <TextField
+                    hintText='Inserisci Email'
+                    floatingLabelText='Email'
+                    onChange={handleChange('email')}
+                    defaultValue={values.email}
+                /><br />
+                <TextField
+                    hintText='Inserisci Telefono'
+                    floatingLabelText='Telefono'
+                    onChange={handleChange('phone')}
+                    defaultValue={values.phone}
+                />
+            </React.Fragment>
         )
     }
 }
