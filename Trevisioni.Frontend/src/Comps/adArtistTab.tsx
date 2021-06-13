@@ -1,9 +1,8 @@
-import React from 'react';
-import { Grid } from '@material-ui/core';
-import styles from './styles';
+import { Container, Typography } from '@material-ui/core';
 
 function ArtistTab() {
 
+    // var mockedArtists=service.GetAllArtists();
     var mockedArtists=[
         {"Id":"H9d1fp755lqAnyt4ut1","ArtistId":"Q7v63958FsiPjsz9f67","Name":"Aleece","Type":3,"Genre":1,"Subgenre":"Ara chloroptera","PhoneNumber":"9821319830","Email":"amarsden0@theglobeandmail.com","Bio":"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.","Events":[]},
         {"Id":"01m47Y78awwFnnb4t81","ArtistId":"y6x5en31OkhIkco6au6","Name":"Way","Type":3,"Genre":12,"Subgenre":"Bubo virginianus","PhoneNumber":"8974384391","Email":"wcotterel1@plala.or.jp","Bio":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.","Events":[{"Id":"z7c9b069EkhRpjr9lq8","StartTime":"2021-09-03T11:58:37Z","EndTime":"2021-09-03T20:06:10Z","ActivityName":"Ramalinaceae"},{"Id":"X0n1xv91qlzFwew0c99","StartTime":"2021-09-03T10:34:04Z","EndTime":"2021-09-03T04:08:11Z","ActivityName":"Potamogetonaceae"}]},
@@ -47,7 +46,7 @@ function ArtistTab() {
     var eventLenght = Math.ceil(Math.abs(lastDay.getTime() - firstDay.getTime()) / (1000 * 3600 * 24)); 
 
     const rows : JSX.Element[] = [];
-    for (let hour = 16; hour <= 25; hour++) {
+    for (let hour = 16; hour <= 24; hour++) {
         
         var cells : JSX.Element[] = [];
             //warning posible performances bolleneck
@@ -59,14 +58,15 @@ function ArtistTab() {
                         x.Events.filter(y=>new Date(y.StartTime)<date&&date<new Date(y.EndTime))
                         .length>0)
                     .map(x=>x.Name)
-                    .join(' ');
-                cells.push(<td style={{border: '1px solid', borderColor: 'lightgray', padding: '6,4,6,4' }}>{data}</td>)
+                    .join(' & ');
+                cells.push(<td style={{border: '1px solid', borderColor: 'lightgray', padding: '2px 6px',background:'white' }}>{data}</td>)
             }
         if(!cells)
             return;
 
         var row: JSX.Element =(
             <tr style={{border: '1px solid', borderColor: 'lightgray'}}>
+                <th style={{border: '1px solid', borderColor: 'lightgray', padding: '2px 6px', background:'lightgray' }}>{hour}</th>
                 {cells}
             </tr>
         );
@@ -74,9 +74,17 @@ function ArtistTab() {
     }
 
     return (
-        <table style={{border: '1px solid', borderCollapse: 'collapse', borderColor: 'lightgray'}}>
-            {rows}
-        </table>
+        <Typography variant='h4' gutterBottom>
+            <table style={{width: '100%', border: '1px solid', borderCollapse: 'collapse', borderColor: 'lightgray',background:'lightgray'}}>
+                <tr style={{border: '1px solid', borderColor: 'lightgray'}}>
+                    <td style={{ border: '1px solid',padding: '2px 6px', width: '5%', borderCollapse: 'collapse', borderColor: 'lightgray' ,background:'lightgray'}}>hr</td>
+                    <th style={{ border: '1px solid', width: '30%', borderCollapse: 'collapse', borderColor: 'lightgray',background:'lightgray'}}>VENERDÌ</th> {/* Todo make this dynamic */}
+                    <th style={{ border: '1px solid', width: '30%', borderCollapse: 'collapse', borderColor: 'lightgray',background:'lightgray'}}>SABATO</th>
+                    <th style={{ border: '1px solid', width: '30%', borderCollapse: 'collapse', borderColor: 'lightgray',background:'lightgray'}}>DOMENICA</th>
+                </tr>
+                {rows}
+            </table>
+        </Typography>
     )
 }
 
