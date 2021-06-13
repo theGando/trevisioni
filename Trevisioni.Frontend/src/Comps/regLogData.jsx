@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { MuiThemeProvider } from '@material-ui/core';
 import { AppBar, Paper, RaisedButton, TextField } from '@material-ui/core';
 
 export class LogData extends Component {

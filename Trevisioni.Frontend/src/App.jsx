@@ -1,19 +1,19 @@
-import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link, useParams } from 'react-router-dom';
-import useStyles from './Comps/styles';
 import NavBar from './Comps/navBar';
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import About from './Pages/About';
 import Login from './Pages/Login';
+import { createMuiTheme } from '@material-ui/core/styles';
+import {ThemeProvider} from '@material-ui/styles';
 import RegisterForm from './Pages/RegisterForm';
 import Admin from './Pages/Admin';
 import Calendar from './Pages/Calendar';
 
 function App() {
-  const classes = useStyles();
+  const theme = createMuiTheme();
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <Router>
         <NavBar />
         <Link to='/artist' />
@@ -30,7 +30,7 @@ function App() {
           <Route path='/staff/sID' />
         </Switch>
       </Router>
-    </div>
+    </ThemeProvider>
   );
 }
 
