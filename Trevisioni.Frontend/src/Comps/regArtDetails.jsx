@@ -1,13 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export class ArtDetails extends Component {
-    render() {
-        return (
-            <div style={{ marginTop: '150px', marginBottom: 300 }}>
+function ArtDetails() {
+    return (
+        <div style={{ marginTop: '150px', marginBottom: 300 }}>
 
-            </div>
-        )
-    }
+        </div>
+    )
 }
 
 export default ArtDetails;
