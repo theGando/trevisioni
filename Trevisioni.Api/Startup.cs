@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Trevisioni.Model;
 
 namespace Trevisioni.Api
 {
@@ -26,7 +28,8 @@ namespace Trevisioni.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            //todo move the connection string in a setting
+            services.AddDbContext<TrevisioniContext>(opt => opt.UseSqlServer("Server=tcp:trevisioni-test.database.windows.net,1433;Initial Catalog=TrevisioniDev;Persist Security Info=False;User ID=TrevisioniAdmin;Password=b++Q27w#{%2+fa>A;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
